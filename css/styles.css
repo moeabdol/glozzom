@@ -32,12 +32,25 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: #FFFFFF; }
-  #home-heading .dark-overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #FFFFFF; }
+  #video-play a {
+    color: #FFFFFF; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
