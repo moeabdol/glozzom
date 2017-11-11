@@ -8,6 +8,96 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse"
+        data-target="#navNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navNavbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase Slider -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading 1</h1>
+              <p class="lead">
+                Lorem sit maxime tempora quidem eos Dolorem vero rerum
+                dignissimos delectus possimus a voluptatem Culpa deserunt
+                atque porro assumenda magni.
+              </p>
+              <a class="btn btn-danger btn-lg" href="#">Signup Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Heading 2</h1>
+              <p class="lead">
+                Lorem sit maxime tempora quidem eos Dolorem vero rerum
+                dignissimos delectus possimus a voluptatem Culpa deserunt
+                atque porro assumenda magni.
+              </p>
+              <a class="btn btn-primary btn-lg" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading 3</h1>
+              <p class="lead">
+                Lorem sit maxime tempora quidem eos Dolorem vero rerum
+                dignissimos delectus possimus a voluptatem Culpa deserunt
+                atque porro assumenda magni.
+              </p>
+              <a class="btn btn-success btn-lg" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
