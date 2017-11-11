@@ -67,4 +67,12 @@ body {
 #about img {
   margin-top: -50px; }
 
+#faq .card {
+  border: #444444; }
+  #faq .card a {
+    color: #FFFFFF;
+    text-decoration: none; }
+#faq .card-header, #faq .card-body {
+  background-color: #333333; }
+
 /*# sourceMappingURL=styles.css.map */
