@@ -8,4 +8,11 @@ $(document).ready(function() {
       $(theModal + ' iframe').attr('src', videoSrc);
     });
   });
+
+  $('.slider').slick({
+    infinite: true,
+    slideToShow: 1,
+    slideToScroll: 1,
+    autoplay: true
+  });
 });
