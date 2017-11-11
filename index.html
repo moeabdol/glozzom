@@ -5,6 +5,7 @@
   <title>Glozzom</title>
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -183,6 +184,99 @@
     </div>
   </section>
 
+  <!-- Photo Gallery Section -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check Out Our Photos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/1"
+             data-lightbox="image-group">
+            <img src="http://lorempixel.com/400/400/business/1"
+              class="img-fluid" alt="">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/2"
+             data-lightbox="image-group">
+            <img src="http://lorempixel.com/400/400/business/2"
+              class="img-fluid" alt="">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/3"
+             data-lightbox="image-group">
+            <img src="http://lorempixel.com/400/400/business/3"
+              class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/4"
+            data-lightbox="image-group">
+            <img src="http://lorempixel.com/400/400/business/4"
+              class="img-fluid" alt="">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/5"
+            data-lightbox="image-group">
+            <img src="http://lorempixel.com/400/400/business/5"
+              class="img-fluid" alt="">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/6"
+            data-lightbox="image-group">
+            <img src="http://lorempixel.com/400/400/business/6"
+              class="img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Signup For Our Newsletter</h1>
+          <p>
+            Adipisicing atque soluta optio obcaecati eligendi error?
+            Consequuntur assumenda minus reprehenderit pariatur totam? Corrupti
+            hic ipsum eveniet laborum odio veniam?
+          </p>
+          <form class="form-inline justify-content-center">
+            <label for="name" class="sr-only">Name</label>
+            <input class="form-control mb-2 mr-sm-2 mb-sm-0" type="text"
+              placeholder="Enter Name">
+
+            <label for="email" class="sr-only">Email</label>
+            <input class="form-control mb-2 mr-sm-2 mb-sm-0" type="email"
+              placeholder="Enter Email">
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="text-center text-white p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyrights 2017 &copy; Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Video Modal -->
   <div id="videoModal" class="modal fade">
     <div class="modal-dialog">
@@ -201,6 +295,7 @@
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/lightbox2/dist/js/lightbox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
